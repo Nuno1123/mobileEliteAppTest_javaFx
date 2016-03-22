@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="vbox" fx:id="vbox" alignment="TOP_CENTER" prefHeight="720.0" prefWidth="1240.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nuno.monteiro.controllers.PageController">
+  <children>
+    <MenuBar id="bar" fx:id="bar" VBox.vgrow="NEVER">
+      <menus>
+        <Menu fx:id="barUsername" mnemonicParsing="false">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Logout" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Wasssaaaa!!!">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+      <VBox alignment="CENTER" prefHeight="692.0" prefWidth="1240.0">
+         <children>
+            <ImageView id="image" fx:id="image" fitHeight="371.0" fitWidth="371.0">
+               <image>
+                  <Image url="@/11751821_1131562380190511_3500479617955073050_n.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+  </children>
+</VBox>

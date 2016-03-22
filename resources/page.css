@@ -1,0 +1,8 @@
+.root {
+    -fx-background-color: #000;
+}
+
+#bar {
+    -fx-background-color: #000;
+    -fx-text-fill: white;
+}

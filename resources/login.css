@@ -1,0 +1,27 @@
+.root { /* selector */
+    -fx-background-color: #000; /* style rules */
+
+}
+
+
+#vbox .button {
+    -fx-background-color: #e80019;
+    -fx-text-fill: white;
+
+}
+
+#vbox #usernameArea, #passwordArea, #emailArea  {
+    -fx-text-fill: white;
+}
+
+#vbox .hyperlink {
+    -fx-text-fill: #298dab;
+}
+
+#vbox .hyperlink:pressed {
+    -fx-text-fill: dimgray;
+}
+
+#vbox .button:pressed{
+    -fx-background-color: dimgray;
+}
