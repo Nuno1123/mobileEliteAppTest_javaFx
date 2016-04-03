@@ -24,7 +24,7 @@ public class Main extends Application {
 
 
 
-        //primaryStage.setOpacity(0.8);
+        primaryStage.setOpacity(0.8);
         Navigation.getInstance().setStage(primaryStage);
         Navigation.getInstance().loadScreen("login");
 

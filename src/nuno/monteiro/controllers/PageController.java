@@ -1,6 +1,6 @@
 package nuno.monteiro.controllers;
 
-import com.sun.java.swing.action.AlignCenterAction;
+//import com.sun.java.swing.action.AlignCenterAction;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Menu;
